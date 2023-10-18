@@ -87,7 +87,7 @@ def gerador_voz(prompt_usuario):
 # ============================== AQUI VOCÊ PODE EDITAR ==========================
 ## Encontra o txt e gera a resposta
 
-transcricao_usuario = carrega("transcricao.txt")
+transcricao_usuario = carrega("audio.mp3")
 resposta_robo = gerador_voz(transcricao_usuario)
 
 ## Manda a resposta para a aplicação
